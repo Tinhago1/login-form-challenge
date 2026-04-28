@@ -1,15 +1,33 @@
-# fernandev
+# 🔐 React Login Form
 
-## React Interview Challenge #02
+Aplicação de formulário de login desenvolvida em React, com validação de campos, controle de estado, tratamento de erros e simulação de requisição assíncrona.
 
-E aí dev, tudo bem? Trouxe pra você mais um desafio de entrevista para que você possa treinar em casa e aprimorar suas habilidades.
+## 📚 Sobre o projeto
 
-Dessa vez temos um formulário de login incompleto e a sua missão é finalizar ele para a sua equipe.
+Este projeto consiste em uma simulação de um fluxo de login utilizando React. O objetivo é praticar conceitos fundamentais do desenvolvimento front-end, como controle de estado, validação de formulário e tratamento de requisições assíncronas.
 
-Preste bem atenção às instruções dentro do arquivo App.jsx e bora codar!
+A aplicação permite que o usuário insira e-mail e senha, realiza validações básicas (como campos obrigatórios e tamanho mínimo da senha), exibe mensagens de erro em caso de falha no login e simula uma requisição para autenticação.
 
-**Se você curtir esse conteúdo, deixa uma STAR aí nesse repo,** porque isso me motiva a trazer mais conteúdos desse gênero.
+## 🚀 Funcionalidades
 
-## Resolução do desafio
+- Validação de campos (email e senha)
+- Desabilitação do botão de login em estados inválidos
+- Controle de loading durante a requisição
+- Exibição de mensagens de erro
+- Limpeza de erro a cada nova tentativa de login
+- Simulação de autenticação assíncrona
 
-https://youtu.be/NAtf3T9gG7s
+## 🛠️ Tecnologias utilizadas
+
+- React
+- JavaScript (ES6+)
+- CSS
+
+## 💡 Aprendizados
+
+Neste projeto, foram aplicados conceitos como:
+
+- useState para gerenciamento de estado
+- Manipulação de eventos em formulários
+- Tratamento de erros com try/catch
+- Boas práticas de UX (feedback ao usuário)
